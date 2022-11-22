@@ -1,4 +1,68 @@
-/*Styles for 320px*/
+/* Global Styles */
 
-
+body {
+    margin: 0 auto;
+    background-color: #F2F2F2;
+}
+#home {
+    background-color: #eb5428;
+}
+nav {
+    font-size: 16px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    margin-bottom: 30px;
+}
+ul {
+    margin: 0 0 30px;
+}
+nav a {
+    text-decoration: none;
+}
+nav a:hover {
+    background-color: #EB5428;
+}
+form {
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+input[type="search"] {
+    margin: 0;
+    padding: 14px;
+    font-size: 14px;
+    border: 1px solid #eb5428;
+}
+button[type="submit"] {
+    cursor: pointer;
+    background-color: #eb5428;
+    border: 1px solid #eb5428;
+}
 /*Styles for 768px*/
+
+/*Styles for 320px*/
+@media screen and (max-width: 320px) {
+    nav {
+        width: 100%
+    }
+    nav ul {
+        padding: 0;
+    }
+    nav li {
+        display: inline-block;
+        text-align: center;
+    }
+    #hamburger, #avatar {
+        width: 20%
+    }
+    #home {
+        width: 50%
+    }
+     /* select 3rd through 9th children of li*/
+    nav li:nth-child(n+3):nth-child(-n+9) {
+        display: none;
+        width: 0;
+    }
+
+}
