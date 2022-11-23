@@ -44,7 +44,7 @@ nav {
 ul {
     margin: 0 0 30px;
 }
-nav a {
+a {
     text-decoration: none;
 }
 nav a:hover {
@@ -106,7 +106,7 @@ li a {
         width: 0;
     }
 
-    main ul:first-child {
+    main ul:first-child, footer ul {
         display: flex;
         padding-left: 0;
     }
@@ -115,6 +115,17 @@ li a {
         display: inline-block;
         width: 25%;
         text-align: center;
+    }
+    footer ul li {
+        display: inline-block;
+        text-align: center;
+        width: 25%;
+    }
+    footer ul li a {
+        display: inline-block;
+        text-align: center;
+        width: 100%;
+        font-size: 12px;
     }
     /*Style the image to fit the screen*/
     [src="images/street-tacos.png"] {
@@ -166,6 +177,12 @@ li a {
     #side-dishes div {
         width: 65%;
         float: right;
+    }
+    footer img {
+        width: 100%;
+    }
+    footer {
+        text-align: center;
     }
 
 
