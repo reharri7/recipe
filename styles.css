@@ -159,6 +159,7 @@ menu {
 menu li, #hamburger, #home, #avatar, nav ul li, #social ul li {
     list-style: none;
     height: 65px;
+    line-height: 1.5;
 }
 
 menu button, ul button {
