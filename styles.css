@@ -156,7 +156,7 @@ menu {
     margin: 0;
 }
 
-menu li, #hamburger, #home, #avatar, ul li {
+menu li, #hamburger, #home, #avatar, nav ul li, #social ul li {
     list-style: none;
     height: 65px;
 }
@@ -611,7 +611,6 @@ footer img {
     #side-dishes p:last-of-type {
         grid-column: 2/3;
         grid-row: 3/4;
-        padding: 0 0 15px 10px;
     }
 
     #social-media-links {
@@ -866,7 +865,6 @@ footer img {
     #side-dishes p:last-of-type {
         grid-column: 1/2;
         grid-row: 4/5;
-        padding: 0 0 15px 10px;
     }
 
     small {
